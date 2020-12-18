@@ -12,7 +12,7 @@
                 </a>
                 <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
                 <a class="dropdown-item" style="font: oblique bold 120% cursive;" href="{{ url('/hotel/historia') }}">Historia</a>
-                <a class="dropdown-item" style="font: oblique bold 120% cursive;" href="{{ url('/hotel/mision-vision') }}">Mision Y Vision</a>
+                <a class="dropdown-item" style="font: oblique bold 120% cursive;" href="{{ url('/hotel/vision') }}">Mision Y Vision</a>
                 <a class="dropdown-item" style="font: oblique bold 120% cursive;" href="{{ url('/hotel/ubicacion') }}">Ubicaión</a>
                 </div>
             </li>
@@ -29,8 +29,20 @@
                 <a class="nav-link" style="font: oblique bold 120% cursive;" href="{{ url('/reservas') }}">Reservas<span class="sr-only">(current)</span></a>
             </li>   
             <li class="nav-item active">
-                <a class="nav-link" style="font: oblique bold 120% cursive;" href="{{ url('/contactos') }}">Contactos<span class="sr-only">(current)</span></a>
-            </li>       
-            </ul>
+                <a class="nav-link" style="font: oblique bold 120% cursive;" href="{{ url('/contacto') }}">Contactos<span class="sr-only">(current)</span></a>
+            </li>  
+           
+          <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" style="font: oblique bold 120% cursive;" href="#" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                Clientes
+                </a>
+                <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                <a class="dropdown-item" style="font: oblique bold 120% cursive;" href="{{ url('/clientes/visualizar') }}">Visualizar</a>
+                               
+                </div>
+            
+          
+        </li>     
+            
         </div>
         </nav>
